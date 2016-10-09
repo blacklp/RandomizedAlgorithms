@@ -2,10 +2,10 @@ using namespace std;
 
 class experiment {
 private:
-	int maxSize;
-	//private methods:
-	void startAlg();
+    int maxSize;
+    //private methods:
+    void startAlg();
 public:
-	experiment(int);
-	double computeProbFail(char);
+    experiment(int);
+    double computeProbFail(char);
 };

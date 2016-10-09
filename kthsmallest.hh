@@ -7,14 +7,15 @@ using namespace std;
 
 class kthsmallest {
 private:
-	vector<int> S;
-	int size;
-	int k;
-	//private methods:
-	void startAlg();
-	vector<int> recStartAlg(vector<int>, int);
+    vector<int> S;
+    int size;
+    int k;
+    //private methods:
+    void startAlg();
+    vector<int> recStartAlg(vector<int>, int);
 public:
-	kthsmallest(int, int);
+    kthsmallest(int, int);
 };
 
 #endif
+
